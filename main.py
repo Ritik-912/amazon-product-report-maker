@@ -111,13 +111,9 @@ def scrapeAmazon(page_source):
     return data
 
 def data_filtering(data, product):
-    #colomns = ['Product Title', 'Original Price', 'Discounted Price', 'Ratings', 'Reviews', 'Quantity', 'Product Dimensions', 'Sponsored']
-    
+        
     df = pd.DataFrame(data)
-
-    # Sort DataFrame based on NA count, Reviews, and Ratings
-    #df = df.sort_values(by=['Reviews'], ascending=[False])
-
+    
     # Save DataFrame to Excel
     output_path = f'output/{product}.xlsx'
     output_directory = os.path.dirname(output_path)
@@ -145,7 +141,7 @@ def update_status(message):
 
 # Tkinter setup
 root = tk.Tk()
-root.title("Report Generator for Village Compamany")
+root.title("Report Generator for Product Research on Amazon")
 root.geometry("400x300")
 
 # Product entry
