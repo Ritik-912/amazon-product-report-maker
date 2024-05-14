@@ -161,6 +161,9 @@ status_label.pack()
 author_info_label = tk.Label(root, text="Author Information: Shruti Dubey\n (https://github.com/Dubeyshruti)", font=("Helvetica", 12), fg="blue")
 author_info_label.pack()
 
+author_info_label = tk.Label(root, text="Author Information: Ritik Kumar\n (https://github.com/Ritik-912)", font=("Helvetica", 12), fg="blue")
+author_info_label.pack()
+
 warning_label = tk.Label(root, text="prerequisite: You must have Chrome browser Installed in your system", font=("Helvetica", 9), fg="red")
 warning_label.pack(padx=9, pady=9)
 
