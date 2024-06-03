@@ -158,9 +158,6 @@ scrape_button.pack(pady=22)
 status_label = tk.Label(root, text="")
 status_label.pack()
 
-author_info_label = tk.Label(root, text="Author Information: Shruti Dubey\n (https://github.com/Dubeyshruti)", font=("Helvetica", 12), fg="blue")
-author_info_label.pack()
-
 author_info_label = tk.Label(root, text="Author Information: Ritik Kumar\n (https://github.com/Ritik-912)", font=("Helvetica", 12), fg="blue")
 author_info_label.pack()
 
